@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@media (max-width: 992px) {
+    div.sidebox {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    nav div.nav-wrapper a.brand-logo {
+        margin-left: 10px !important;
+    }
+}
+
+[v-cloak] {
+    display: none;
+}
+
+header nav {
+    margin-bottom: 20px;
+}
+
+div.ad p {
+    font-size: 0.8em;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 4em;
+}
+
+div.sidebox {
+    position: absolute;
+}
+
+div.ad {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    width: 100%;
+    min-height: 60px;
+    position: relative;
+}
+
+div.button-list {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+}
+
+div.button-list ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 45px;
+    display: inline-block;
+}
+
+div.button-list ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}

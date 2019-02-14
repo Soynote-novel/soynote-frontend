@@ -1,0 +1,5 @@
+{
+    "http_port": 80,
+    "trustproxy": false,
+    "recaptcha": "recaptcha site key"
+}
